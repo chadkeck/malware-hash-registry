@@ -1,0 +1,31 @@
+{
+  "name": "malware-hash-registry",
+  "version": "1.0.0",
+  "main": "./lib/malware-hash-registry.js",
+  "description": "client for Team Cymru's Malware Hash Registry",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha"
+  },
+  "homepage": "https://github.com/chadkeck/malware-hash-registry",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chadkeck/malware-hash-registry.git"
+  },
+  "keywords": [
+    "mhr",
+    "malware",
+    "virus",
+    "team-cymru",
+    "cymru"
+  ],
+  "author": {
+    "name": "Chad Bibler",
+    "url": "https://chadbibler.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.0.1",
+    "string": "^3.0.0"
+  }
+}
